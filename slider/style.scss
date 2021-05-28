@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+
+.content-width {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.slider{
+  width: 700px;
+  margin: 0 auto;
+  img {
+    height: calc((9 / 16) * 700px);
+    object-fit: contain;
+  }
+}
